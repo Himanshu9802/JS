@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // let n1 = parseInt(prompt('a'));
+    // let n2 = parseInt(prompt('b'));
+
+    // const sum = n1 + n2;
+
+    // const sqr = Round(Math.sqrt(n1))
+
+    // const area = (n1 * n2) / 2
+
+    // [n1, n2] = [n2, n1]
+
+    function countDown(number) {
+        document.write(number);
+        const newNumber = number - 1;
+        if (newNumber > 0) {
+            countDown(newNumber);
+        }else{
+            document.write("stopped")
+        }
+    }
+
+    countDown(4);
+</script>
+
+</html>
